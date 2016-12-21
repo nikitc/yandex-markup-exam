@@ -1,0 +1,213 @@
+.left
+{
+    background-color: blue;
+    transform: rotateY(90deg) translateZ(225px) translateX(75px);
+}
+
+.right
+{
+    background-color: red;
+    transform: rotateY(90deg) translateZ(375px) translateX(75px);
+}
+
+.back
+{
+    background-color: yellow;
+    transform:   translateX(300px) translateZ(-150px);
+}
+
+.front
+{
+    background-color: purple;
+    transform:  translateX(300px);
+}
+
+.bottom
+{
+    background-color: green;
+    transform:  rotateX(90deg) translateX(300px) translateZ(75px) translateY(-75px);
+}
+
+.top
+{
+    background-color: gray;
+    transform:  rotateX(90deg) translateX(300px) translateZ(-75px) translateY(-75px);
+}
+
+.part
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.circle
+{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px 20px 20px 20px;   
+}
+
+.first
+{
+    position: absolute;
+    left: 40%;
+    top: 40%;   
+}
+
+.second-first
+{
+    position: absolute;
+    left: 20%;
+    top: 20%;   
+}
+
+.second-second
+{
+    position: absolute;
+    left: 60%;
+    top: 60%;   
+}
+
+.third-first
+{
+    position: absolute;
+    left: 10%;
+    top: 10%;   
+}
+
+.third-second
+{
+    position: absolute;
+    left: 40%;
+    top: 40%;   
+}
+
+.third-third
+{
+    position: absolute;
+    left: 70%;
+    top: 70%;   
+}
+
+.four-first
+{
+    position: absolute;
+    left: 10%;
+    top: 10%;   
+}
+
+.four-second
+{
+    position: absolute;
+    left: 80%;
+    top: 10%;   
+}
+
+.four-third
+{
+    position: absolute;
+    left: 10%;
+    top: 80%;   
+}
+
+.four-four
+{
+    position: absolute;
+    left: 80%;
+    top: 80%;   
+}
+
+.five-first
+{
+    position: absolute;
+    left: 10%;
+    top: 10%;   
+}
+
+.five-second
+{
+    position: absolute;
+    left: 80%;
+    top: 10%;   
+}
+
+.five-third
+{
+    position: absolute;
+    left: 10%;
+    top: 80%;   
+}
+
+.five-four
+{
+    position: absolute;
+    left: 80%;
+    top: 80%;   
+}
+
+.five-five
+{
+    position: absolute;
+    left: 40%;
+    top: 40%;   
+}
+
+.six-first
+{
+    position: absolute;
+    left: 10%;
+    top: 10%;   
+}
+
+.six-second
+{
+    position: absolute;
+    left: 80%;
+    top: 10%;   
+}
+
+.six-third
+{
+    position: absolute;
+    left: 10%;
+    top: 80%;   
+}
+
+.six-four
+{
+    position: absolute;
+    left: 80%;
+    top: 80%;   
+}
+
+.six-five
+{
+    position: absolute;
+    left: 10%;
+    top: 40%;   
+}
+
+
+.six-six
+{
+    position: absolute;
+    left: 80%;
+    top: 40%;   
+}
+
+.box
+{
+    margin-top: 100px;
+    transform-style: preserve-3d;
+    animation-name: rotateBox;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotateBox {
+    to {
+        transform: rotate3d(1,-1,0, -360deg);
+    }
+}
